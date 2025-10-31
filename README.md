@@ -1,6 +1,6 @@
 # Gerenciando Instancias EC2 na AWS - Desafio 1
 
-# Cenário Fictício: Aplicação de Streaming de Conteúdo Multimídia :câmera_de_cinema::nota_musical:
+# Cenário Fictício: Aplicação de Streaming de Conteúdo Multimídia
 Nesse material estou enviando o primeiro desafio, com uma arquitetura desenhada no draw.io.
 
 O Objetivo desse desafio era realizar e criar uma arquitetura 
@@ -9,7 +9,7 @@ Nessa aplicação foi considerado a ideia de uma arquitetura de conteúdo multim
 
 Os arquivos de mídia são armazenados em Amazon S3, enquanto os servidores em Amazon EC2 gerenciam as requisições e processam os dados.
 
-# Arquitetura Proposta :lâmpada:
+# Arquitetura Proposta
 1. Amazon S3: Armazenamento de Conteúdo
    - Todos os arquivos multimídia (vídeos, músicas, imagens) ficam armazenados no Amazon S3.
    - O bucket S3 é configurado para:
